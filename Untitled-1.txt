@@ -1,0 +1,16 @@
+function grade(marks){
+if (marks>=90 && marks <=100)
+return"A+";
+else if (marks>=88 && marks <=90)
+return"b";
+else
+
+
+        return "Invalid marks.Please enter a number between 0 and 100.";
+
+
+
+}
+let studentMarks = 95;
+let Grade = grade(studentMarks);
+console.log("Your grade is: " + Grade)
