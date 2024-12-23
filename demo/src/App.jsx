@@ -9,7 +9,7 @@ function App() {
       <h1>Props</h1>
       <Text name="Akbar" />
       <h1>States</h1>
-      <States/>
+      <States />
     </>
   )
 }
