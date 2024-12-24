@@ -10,7 +10,7 @@ const States = ({ val }) => {
     }
     useEffect(()=>{
         console.log('value', value)
-    },[value])
+    },[])
     return (
         <>
             <p>Current state is {value}</p>
